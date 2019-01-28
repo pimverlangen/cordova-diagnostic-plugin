@@ -50,27 +50,21 @@
         <framework src="CoreLocation.framework" />
 
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" comment="Default usage descriptions: override as necessary in .plist">
-            <string>
-                Withlocals shows you things to do at your location.
+            <string>Withlocals shows you things to do at your location.
 
-                Choose Always Allow, so the app can find personalised tours &amp; activities near you.
-            </string>
+                Choose Always Allow, so the app can find personalised tours &amp; activities near you.</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription" comment="iOS 11 or greater">
-            <string>
-                Withlocals shows you things to do at your location.
+            <string>Withlocals shows you things to do at your location.
 
-                Choose Always Allow, so the app can find personalised tours &amp; activities near you.
-            </string>
+                Choose Always Allow, so the app can find personalised tours &amp; activities near you.</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription" comment="iOS 10 or below">
-            <string>
-                Withlocals shows you things to do at your location.
+            <string>Withlocals shows you things to do at your location.
 
-                Choose Always Allow, so the app can find personalised tours &amp; activities near you.
-            </string>
+                Choose Always Allow, so the app can find personalised tours &amp; activities near you.</string>
         </config-file>
         <!--END_MODULE LOCATION-->
 
