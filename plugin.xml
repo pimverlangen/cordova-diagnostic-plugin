@@ -122,11 +122,15 @@
         <framework src="AVFoundation.framework" />
 
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-            <string>This app requires camera access to function properly.</string>
+            <string>Withlocals allows you to interact with others.
+
+                Choose OK, so the app can use the camera and take your profile picture.</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-            <string>This app requires photo library access to function properly.</string>
+            <string>Withlocals allows you to interact with others.
+
+                Choose OK, so the app can use the camera and take your profile picture.</string>
         </config-file>
 
         <header-file src="src/ios/Diagnostic_Camera.h" />
